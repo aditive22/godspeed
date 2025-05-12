@@ -1,6 +1,6 @@
 # Godspeed Landing Page
 
-An interactive and visually engaging landing page built using **React + Vite** as part of a frontend assignment. The project includes smooth transitions, animated backgrounds, dynamic content, and responsive sections for a product called **Godspeed**.
+An interactive and visually engaging landing page built using **React + Vite** as part of a frontend assignment. The project includes smooth transitions, animated backgrounds, dynamic content, and responsive sections.
 
 ## Live Sections Included
 
@@ -24,8 +24,8 @@ An interactive and visually engaging landing page built using **React + Vite** a
 
 1. **Clone the Repository:**
    bash
-   git clone https://github.com/your-username/godspeed-landing-page.git
-   cd godspeed-landing-page
+   git clone https://github.com/aditive22/godspeed
+   cd godspeed
 2. **Install Dependencies:**
    npm install
 3.**Run the App:**
