@@ -1,12 +1,45 @@
-# React + Vite
+# Godspeed Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and visually engaging landing page built using **React + Vite** as part of a frontend assignment. The project includes smooth transitions, animated backgrounds, dynamic content, and responsive sections for a product called **Godspeed**.
 
-Currently, two official plugins are available:
+## Live Sections Included
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Hero Section** – Eye-catching introduction with a typewriter effect
+- **Product Section** – Key features listed with a 3D visual component
+- **Team Section** – Team profiles with dynamic background blobs
+- **About Section** – Overview about Godspeed (component implemented)
+- **Pricing Section** – Pricing plans (component implemented)
+- **Smooth Scroll** – Spring-based scroll transitions between sections
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite
+- HTML, CSS
+- Typewriter-effect package
+- Custom animations and responsive design
+
+---
+
+## How to Run Locally
+
+1. **Clone the Repository:**
+   bash
+   git clone https://github.com/your-username/godspeed-landing-page.git
+   cd godspeed-landing-page
+2. **Install Dependencies:**
+   npm install
+3.**Run the App:**
+   npm run dev
+4.**Open your browser and visit:**
+   (http://localhost:5173 by default)
+
+## Notes & Limitations
+3D sphere animation inside the Product section may be resource-intensive on low-end devices or older browsers.
+
+The scroll spring effect is dependent on the browser rendering performance.
+
+Some assets like images and 3D visuals are fetched from external sources; make sure you're connected to the internet.
+
+The layout is mobile-friendly but further responsive tuning could be beneficial for smaller devices.
+
+
