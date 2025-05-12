@@ -1,0 +1,136 @@
+.pricing-section {
+  height: 100vh;                /* Full viewport height */
+  width: 100%;
+  background: #124E66;          /* Soft blue background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;      /* Vertical centering */
+  align-items: center;          /* Horizontal centering */
+  text-align: center;
+  padding: 0 5vw;
+  box-sizing: border-box;
+}
+
+.pricing-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+.pricing-tiers {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  max-width: 1100px;
+}
+/* On smaller screens, stack cards vertically */
+@media (max-width: 1000px) {
+  .pricing-card {
+    width: 90vw;
+    max-width: 350px;
+  }
+  .pricing-tiers {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.pricing-card {
+  background: #fff;
+  padding: 2.5rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(51,88,198,0.15);
+}
+
+.pricing-plan {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3358c6;
+  margin-bottom: 1rem;
+}
+
+.pricing-price {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 1.2rem;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  color: #444;
+  font-size: 1.08rem;
+  text-align: left;
+}
+
+.pricing-features li {
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-features li::before {
+  content: "✔️";
+  margin-right: 8px;
+  color: #30c77b;
+}
+
+.pricing-btn {
+  padding: 12px 32px;
+  background: #3358c6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.pricing-btn:hover {
+  background: #30c77b;
+  color: #222;
+}
+
+/* Responsive for mobile */
+@media (max-width: 950px) {
+  .pricing-tiers {
+    gap: 20px;
+  }
+  .pricing-card {
+    width: 90vw;
+    max-width: 350px;
+    padding: 2rem 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .pricing-section {
+    padding: 0 2vw;
+    height: auto;
+    min-height: 100vh;
+  }
+  .pricing-title {
+    font-size: 2rem;
+  }
+  .pricing-tiers {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

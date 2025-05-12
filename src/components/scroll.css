@@ -1,0 +1,31 @@
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: linear-gradient(90deg, #30c77b, #3358c6);
+  transform-origin: 0%;
+  z-index: 9999;
+}
+
+.floating-circle {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3358c6 60%, #30c77b 100%);
+  box-shadow: 0 4px 24px rgba(51, 88, 198, 0.25);
+  z-index: 9999;
+}
+
+.scroll-content {
+  min-height: 220vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 80px;
+}
