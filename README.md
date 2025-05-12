@@ -23,7 +23,7 @@ An interactive and visually engaging landing page built using **React + Vite** a
 ## How to Run Locally
 
 1. **Clone the Repository:**
-   bash
+   ```bash
    git clone https://github.com/aditive22/godspeed
    cd godspeed
 2. **Install Dependencies:**
