@@ -29,13 +29,19 @@ An interactive and visually engaging landing page built using **React + Vite** a
    ```
    
 2. **Install Dependencies:**
+   ```bash
    npm install
+   ```
    
 3.**Run the App:**
+   ```bash
    npm run dev
+   ```
    
 4.**Open your browser and visit:**
+   ```bash
    (http://localhost:5173 by default)
+   ```
 
 ## Notes & Limitations
 3D sphere animation inside the Product section may be resource-intensive on low-end devices or older browsers.
