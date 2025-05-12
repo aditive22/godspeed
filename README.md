@@ -26,10 +26,13 @@ An interactive and visually engaging landing page built using **React + Vite** a
    ```bash
    git clone https://github.com/aditive22/godspeed
    cd godspeed
+   
 2. **Install Dependencies:**
    npm install
+   
 3.**Run the App:**
    npm run dev
+   
 4.**Open your browser and visit:**
    (http://localhost:5173 by default)
 
